@@ -1,0 +1,36 @@
+{
+	"name": "validation_dataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "storage_loc",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "titles",
+				"fileSystem": "raw"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "folder_name",
+				"type": "String"
+			},
+			{
+				"name": "file_name",
+				"type": "String"
+			},
+			{
+				"name": "actual_file_name",
+				"type": "String"
+			}
+		]
+	}
+}
