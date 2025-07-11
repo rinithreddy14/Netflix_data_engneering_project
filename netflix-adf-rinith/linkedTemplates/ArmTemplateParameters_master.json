@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "netflix-adf-rinith"
+		},
+		"storage_loc_accountKey": {
+			"value": ""
+		},
+		"github_loc_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/rinithreddy14/Netflix_data_engneering_project/main/Raw_lookup_files/"
+		},
+		"storage_loc_properties_typeProperties_url": {
+			"value": "https://netflixmainstorage.dfs.core.windows.net/"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
