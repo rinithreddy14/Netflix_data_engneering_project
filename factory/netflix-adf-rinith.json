@@ -1,0 +1,9 @@
+{
+	"name": "netflix-adf-rinith",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "751a87d6-2d97-476d-9208-5e9dc7fd8277",
+		"tenantId": "39a4969b-8412-41f4-a802-11e37c984866"
+	}
+}
